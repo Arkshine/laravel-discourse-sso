@@ -20,6 +20,20 @@
             "email": "stephen.finney@spinen.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "spinen/laravel-discourse-sso",
+                "version": "dev-develop",
+                "source": {
+                    "url": "https://github.com/Arkshine/laravel-discourse-sso",
+                    "type": "git",
+                    "reference": "custom"
+                }
+            }
+        }
+    ],
     "require": {
         "php": ">=8.1",
         "cviebrock/discourse-php": "^0.9.3",
